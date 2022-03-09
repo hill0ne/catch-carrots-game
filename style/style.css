@@ -1,0 +1,64 @@
+@media screen and (max-width: 480px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0a500;
+  }
+
+  .playGame {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background: 100% / contain no-repeat url("../image/background.png");
+  }
+
+  .playContainer {
+    position: absolute;
+    display: flex;
+    top: 10%;
+    width: 300px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid purple;
+  }
+
+  .button--play {
+    width: 100px;
+    height: 40px;
+  }
+
+  .timer {
+    width: 150px;
+    height: 30px;
+    border: 1px solid red;
+  }
+
+  .counter {
+    width: 60px;
+    height: 30px;
+    border: 1px solid green;
+  }
+
+  .playResult {
+    position: absolute;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 1px solid pink;
+    transform: translateY(150%);
+  }
+}
